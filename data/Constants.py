@@ -13,7 +13,7 @@ isDevEnvironment = not os.getcwd().startswith(sep)
 def getPasteBotUrlPrefix():
 	if isDevEnvironment:
 		return "http://localhost/paste?content="
-	return "https://paste.modularity.gg/paste?content="
+	return "https://mpaste.ntms.link/paste?content="
 
 def getPasteBotToken():
 	if isDevEnvironment:
